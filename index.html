@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Gomel WOW</title>
+  <meta http-equiv="imagetoolbar" content="no"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta charset="utf-8">
+  <!-- Begin CSS section -->
+     <link rel="stylesheet" href="css/style.css">
+      <link rel="stylesheet" href="css/onoswich_style.css">
+  <!-- End CSS section -->
+</head>
+
+<body>
+
+  <!-- Begin gorizontal navbar section -->
+  <div id="content" canvas="container">
+    <nav id="navbar">
+     <button id="toggle_btn" class="js-toggle-left-slidebar">
+       <img src="./img/controls/menu.png">
+     </button>
+     <h1>Гомель</h1>
+   </nav>
+   <div id="map"></div>
+ </div>
+ <!-- End gorizontal navbar section -->
+
+
+ <div id="left_menu" off-canvas="slidebar-1 left reveal">
+  <p>Меню управления</p>
+
+  <table cellspacing="3" class="menu_element_table">
+
+    <tr>
+      <td>
+        <div  class="onoffswitch">
+         <input type="checkbox" name="onoffswitch" class="onoffswitch-checkbox" id="togOpcityMain" checked>
+         <label class="onoffswitch-label" for="togOpcityMain">
+           <span class="onoffswitch-inner"></span>
+           <span class="onoffswitch-switch"></span>
+         </label>
+       </div>
+     </td>
+     <td>
+      Оснвная карта
+    </td>
+  </tr>
+
+  <tr>
+    <td>
+      <div  class="onoffswitch">
+       <input type="checkbox" name="onoffswitch" class="onoffswitch-checkbox" id="togOpcity1943" checked>
+       <label class="onoffswitch-label" for="togOpcity1943">
+         <span class="onoffswitch-inner"></span>
+         <span class="onoffswitch-switch"></span>
+       </label>
+     </div>
+   </td>
+   <td>
+    Карта 1943г.
+  </td>
+</tr>
+
+<tr>
+  <td>
+    <div  class="onoffswitch">
+     <input type="checkbox" name="onoffswitch" class="onoffswitch-checkbox" id="togOpcity1965">
+     <label class="onoffswitch-label" for="togOpcity1965">
+       <span class="onoffswitch-inner"></span>
+       <span class="onoffswitch-switch"></span>
+     </label>
+   </div>
+ </td>
+ <td>
+  Карта 1965г.
+</td>
+</tr>
+
+<tr>
+  <td>
+    <div  class="onoffswitch">
+     <input type="checkbox" name="onoffswitch" class="onoffswitch-checkbox" id="togVisibleButton" checked>
+     <label class="onoffswitch-label" for="togVisibleButton">
+       <span class="onoffswitch-inner"></span>
+       <span class="onoffswitch-switch"></span>
+     </label>
+   </div>
+ </td>
+ <td>
+  Маркеры
+</td>
+</tr>
+
+<tr class="fitBoundsButtonRow">
+  <td colspan="2">
+    <button class="button" type="button" name="fitBoundsButton" id="fitBoundsButton">Просмотреть все маркеры</button>
+  </td>
+</tr>
+
+
+</table>
+</div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+<script src="js/slidebars.js"></script>
+<script src="js/scripts.js"></script>
+<script src="https://maps.googleapis.com/maps/api/js?v=3&key=AIzaSyCNuMjgYBcpMnpIkNDaqi7vAtHsHrqJ1j4"></script>
+
+<script type="text/javascript" src="js/main.js"></script>
+
+</body>
+</html>

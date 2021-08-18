@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<markers>
+
+<marker>
+<html><![CDATA[ <h3>Гомель. Танк T-34</h3><p>Описание метки либо любой html</p><iframe width="560" height="315" src="https://www.youtube.com/embed/nncKtcgUnHs" frameborder="0" allowfullscreen></iframe> ]]></html>
+<mark_title>Танк</mark_title>
+<lat>52.435871</lat>
+<lng>31.009633</lng>
+</marker>
+
+<marker>
+<html><![CDATA[ <h3>Площадь ленина</h3><p>Памятник дедушке Ленину)</p><img style="object-fit: cover;" width="560" height="315" src="http://img-fotki.yandex.ru/get/6623/63224080.99/0_8830d_9a1f3345_XXL.jpg"> ]]></html>
+<mark_title>Танк</mark_title>
+<lat>52.424263</lat>
+<lng>31.014387</lng>
+</marker>
+
+</markers>
